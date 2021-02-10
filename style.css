@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(126, 99, 99);
+}
+
+h1{
+    text-align: center;
+    color: chartreuse;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 45px;
+}
+.head p {
+    font-size: 24px;
+    color: cornsilk;
+    text-decoration: crimson;
+    text-decoration-line: underline;
+}
