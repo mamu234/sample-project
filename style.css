@@ -12,6 +12,10 @@ p{
     color: #111;
 }
 
+body{
+min-height:100px ;
+}
+
 .banner{
 position: relative;
 width: 100%;
@@ -27,11 +31,12 @@ background-size: cover;
 
 .banner .content{
 max-width: 900px;
-text-align: center;
+text-align:center;
 }
 .banner .content h2{
     font-size: 5em;
     color: #fff;
+    margin-top: 150px;
 
 }
 .banner .content p{
@@ -68,11 +73,24 @@ display:flex;
 justify-content: space-between;
 transition: 0.5s;
 }
+
+header .sticky{
+background: #fff;
+padding: 10px 100px;
+box-shadow: 0 5px 20px rgba(0, 0,0,0s);
+}
+
 header .logo{
     color: #fff;
     font-weight: 700;
     font-size: 2em;
     text-decoration: none;
+}
+
+header .sticky .logo{
+    color: #111;
+
+
 }
 header .logo span
 {
@@ -92,4 +110,12 @@ header .navigation li a{
    text-decoration: none; 
    color: #fff;
    font-weight: 300;
+}
+
+header .sticky .navigation li a{
+color: #111;
+
+}
+header .navigation li a:hover{
+    color: #ff0157;
 }
