@@ -36,24 +36,30 @@
   <section class="about" id="about">
     <div class="row">
         <div class="col50">
-<h2><span> About us</span></h2>
-<p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit quasi error quas, placeat nihil debitis ipsum in beatae adipisci! Beatae totam alias nulla numquam voluptatum dignissimos 
-    voluptatibus maiores nemo ipsam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime molestias quos dolores consectetur voluptatem magni nobis minus, dignissimos eum nemo delectus cumque similique eius molestiae possimus tenetur?
-     Dignissimos, amet aut!</p> <br>
-     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ipsum maxime dolor deleniti ad ullam, saepe dolorem eaque optio delectus nihil laudantium odit numquam iure necessitatibus totam cum magnam! Labore.
-         Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, repudiandae dolores ipsa aliquid animi fugiat repellat temporibus quia alias recusandae nesciunt autem in obcaecati possimus. Totam consequatur impedit nulla vero.
-     </p>
+<h2 class="titleText"> A<span></span>bout us</h2>
+<p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+    Reprehenderit quasi error quas, placeat nihil debitis ipsum in beatae adipisci! Beatae totam alias nulla 
+    numquam voluptatum dignissimos 
+   </p> <br>
+     
         </div>
 
     
 <div class="col50">
     <div class="imgBx">
-        <img src="./images/pizzajpeg">
+        <img src="./images/pizza.jpeg">
 </div>
     </div>
 </div>
 </section>
 
+<script type="text/javascript"> 
+window.addEventListener('scroll', function(){
+    const header = document.querySelector('header');
+    header.classList.toggle('sticky', window.scrollY > 0)
+});
+
+</script>
 
 </body>
 </html>
