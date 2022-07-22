@@ -10,16 +10,15 @@
 <body>
     <header>
         <a href="#" class="logo">myFoodCourt<span>.</span></a>
-        <ul class="navigation"> 
+    <ul class="navigation"> 
         <li><a href="#banner">Home</a> </li>
-        <li><a href="#about"></a>About</li>
-        <li><a href="#menu"></a>menu </li>
-        <li><a href="#expert"></a>Expert </li>
-        <li><a href="#testimoniala"></a> Testimonials</li>
-        <li><a href="#contact"></a> Contact</li>
+        <li><a href="#about">About</a> </li>
+        <li><a href="#menu">Menu</a> </li>
+        <li><a href="#expert">Expert</a> </li>
+        <li><a href="#testimonials">Testimonials</a> </li>
+        <li><a href="#contact">Contact</a> </li>
         
-    </ul>
-        </header>
+      </ul>
     </header>
     <section class="banner" id="banner">
         <div class="content">
@@ -133,7 +132,7 @@
 
 <section class="testimonials" id="testimonials">
     <div class="title">
-        <h2 class="title white"> What they  <span>S</span>aid About Us </h2>
+        <h2 class="titlewhite"> What they<span>S</span>aid About Us</h2>
         <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius exercitationem consequuntur similique minima. Reiciendis accusamus placeat at doloribus voluptatem. Harum nobis commodi porro deserunt 
             veniam nostrum consequatur quisquam animi aliquid.</p>
     </div>
@@ -173,14 +172,44 @@
 </div>
     </div>
     </section>
+    <section class="contact" id="contact">
+        <div class="title">
+            <h2 class="titleText"><span>C</span> ontact Us</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id quae dolores soluta harum molestias, sequi architecto nobis repudiandae ipsum consequuntur sit ipsam perspiciatis! 
+                Unde, vitae exercitationem recusandae aperiam sint quas!</p>
+        </div>
+        <div class="contactForm">
+            <h1>Send message</h1>
+            <div class="inputBox">
+            <input type="text" placeholder="Name">
+             </div>
+            <div class="inputBox">
+                <input type="text" placeholder="Email">
+        </div>
+        <div class="inputBox">
+            <textarea placeholder="Name"></textarea>
+    <div class="inputBox">
+        <input type="submit" value="Send">
+    </div>
+</div>
+    </section>
+<div class="copyrightText">
+    <p>Copyright 2022, Carolyne Maunda. All right Reserved </p>
+</div>
 
-<!-- <script type="text/javascript"> 
+
+ <script type="text/javascript"> 
 window.addEventListener('scroll', function(){
     const header = document.querySelector('header');
     header.classList.toggle('sticky', window.scrollY > 0)
 });
 
-// </script> -->
+function toggleMenu(){
+    const menuToggle = document.querySelector('.menuToggle');
+    menuToggle.classList.toggle('active')
+}
+
+ </script> 
 
 </body>
 </html>
