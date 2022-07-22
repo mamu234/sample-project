@@ -1,7 +1,8 @@
-# MyFood Court
+### MyFood Court
 
-# Overall Project Description
-# MyFoodCourt is a simple app where peopel can make orders online  by choosing different types of food  
+Overall Project Description 
+MyFoodCourt is a simple app where peopel can make orders 
+online  by choosing different types of food  
 
 Features
 
