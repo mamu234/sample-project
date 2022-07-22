@@ -40,8 +40,8 @@ text-align:center;
 
 }
 .banner .content p{
-    font-size: 1em;
-    color: #fff;
+    font-size: 3em;
+    color: rgb(5, 5, 5);
 
 }
 .btn{
@@ -108,9 +108,9 @@ header .navigation li{
 
 header .navigation li a{
    text-decoration: none; 
-   color: #fff;
+   color: rgb(10, 10, 10);
    font-weight: 300;
-   font-size: 30px;
+   font-size: 25px;
 }
 
 header .sticky .navigation li a{
