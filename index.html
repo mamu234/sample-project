@@ -178,10 +178,12 @@
         <div class="container">
             <form action="https://formspree.io/f/xknegorv" method="POST">
                 <h3>GET IN TOUCH</h3>
-                <input type="text" id="name" placeholder="Your Name" required>
-                <input type="email" id="email" placeholder="Enter your Email" required>
-                <input type="number" id="phone" placeholder="Enter your phone number" required>
-                <textarea id="message" rows="4" placeholder="HOw can we help you" required></textarea>
+
+             
+                <input type="text" id="name"  name="name"  placeholder="Your Name" required>
+                <input type="email" id="email" name="email" placeholder="Enter your Email" required>
+                <input type="number" id="phone" name="phone" placeholder="Enter your phone number" required>
+                <textarea id="message" rows="4" name="message" placeholder="How can we help you" required></textarea>
                 <button type="submit"> Send</button>
             </form>
         </div>
@@ -191,22 +193,27 @@
     <p>Copyright 2022, Carolyne Maunda. All right Reserved </p>
 </div>
 
+<script src="https://smtpjs.com/v3/smtp.js">
+</script>
 
+<script>
+    function sendEmail(){
+        Email.send({
+        Host : "smtp.gmail.com",
+    Username : "pcmaunda@gmail.com",
+    Password : "vvlnvgcizeaveprb",
+    To : 'pcmaunda@gmail.com',
+    From : document.getElementById("email").value,
+    Subject : "welcome to the new contact form",
+    Body : "Name:" + document.getElementById("name").value
+    + " <br> email:" + document.getElementById("email").value
+    + " <br> number:" + document.getElementById("phone").value
+    + " <br> message:" + document.getElementById("message").value
+}).then(
+  message => alert("message sent succesfully")
+);
 
-
- <script type="text/javascript"> 
-window.addEventListener('scroll', function(){
-    const header = document.querySelector('header');
-    header.classList.toggle('sticky', window.scrollY > 0)
-});
-
-function toggleMenu(){
-    const menuToggle = document.querySelector('.menuToggle');
-    menuToggle.classList.toggle('active')
-}
-
- 
-
-
+    }
+</script>
 </body>
 </html>
