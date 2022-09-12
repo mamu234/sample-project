@@ -21,7 +21,7 @@ Javascript
 Setup instructions
 
 Live Site
-https://mamu234.github.io/sample-project/
+mamu234.github.io/sample-project/
 
 Licence
 MIT LICENCE
