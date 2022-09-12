@@ -10,7 +10,7 @@ BDD (Behavior Driven Development)
 users click to the navbar buttons to views the features
 Users can views the chefs 
 users can see testimonials
-users can send a message by filling the form
+users can send a message by filling the formaand receive a notifcation
 
 
 Languages and Frameworks
