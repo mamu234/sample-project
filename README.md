@@ -6,17 +6,19 @@ online  by choosing different types of food
 
 Features
 
-BDD (Behavior Driven Development)
+### BDD (Behavior Driven Development)
 users click to the navbar buttons to views the features
 Users can views the chefs 
 users can see testimonials
 users can send a message by filling the form and receive a notification
 
 
-Languages and Frameworks
+###Languages and Frameworks
 Html5
 css
 Javascript
+
+The main feature in javascript in incoporating stmp for gmail to send and receive email notifcation
 
 Setup instructions
 
